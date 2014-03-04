@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - 0.8
+- 0.8
 before_script:
-  - npm install grunt-cli -g
+- npm install grunt-cli -g
 script:
-  - grunt travis --verbose
-  - node ./node_modules/.bin/browserstack-runner
+- grunt travis --verbose
+- node ./node_modules/.bin/browserstack-runner
 env:
   global:
-    - secure: "qV/i9OKB0d83BdvVXhSkWY9evl/c7T2k8bo55fyYlzZjeetd/W+wnOLu5Ckgd3r+CAkpkl84U4qK7Ga5VTs/w2DktcAvo1aCHPC2aUiW6IJJcvcauipYQ+MVa9FBuESKH4SRuq/vIYRDTWOlch+dD+e4x5Fn07rzon6DaeRy7Ao="
-    - secure: "e54KI0o84XfI7LzYTIcrWcLhrHHcFDzQ9H7kNmyF6gxf+JeQtjvWZ6rR+EWgmLqZxIpNOUgXKCg0nqyZ3xtQ8FevV+pbxhsSPLZJfU2q5GpcFXNjxhhDXjFfSp1jcy6EJ5QAgrK1v+6tWIrrztiyr/qfT8lRctgwW67kMvznipo="
+  - secure: H+NIN6lZNsfCtNxeZ/KAuOHfs9sCmsBi9FmQ3I1xxEBWiG4MaprUh+LoGqkn5y5rSkhrLgQ+qaukln+BtGtLoM55o5R03u2JQ61jpbSv2+UfqA4ymg9GRoFs93mATf/6lV+2SCvd1N8CAMbpJVp3bHyHPu7AhR5tCrqw9s4nGDc=
+  - secure: NEPx3gN79bErXtnmwWaMoSkU/t+tTojrHiaCzdQ6S6uqIQ5Idb+JYCBCaL6cAysRrTYm2ZNQaH2oUq8Z3DKzNzLq1TjH35/i5TtHLHie0gNNQn2OlatbtN2PYx2ByJAjAmPJujFuYnK3ikhXfudR/mP0eyhqXYikXIiBafHxHfQ=

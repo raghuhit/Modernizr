@@ -8,43 +8,13 @@
       "browser": "safari",
       "browser_version": "latest",
       "os": "OS X",
-      "os_version": "Snow Leopard"
-    },
-    {
-      "browser": "safari",
-      "browser_version": "latest",
-      "os": "OS X",
-      "os_version": "Lion"
-    },
-    {
-      "browser": "safari",
-      "browser_version": "latest",
-      "os": "OS X",
-      "os_version": "Mountain Lion"
-    },
-    {
-      "browser": "safari",
-      "browser_version": "latest",
-      "os": "OS X",
       "os_version": "Mavericks"
-    },
-    {
-      "browser": "chrome",
-      "browser_version": "latest",
-      "os": "OS X",
-      "os_version": "Mountain Lion"
     },
     {
       "browser": "chrome",
       "browser_version": "latest",
       "os": "Windows",
       "os_version": "7"
-    },
-    {
-      "browser": "firefox",
-      "browser_version": "latest",
-      "os": "OS X",
-      "os_version": "Lion"
     },
     {
       "browser": "firefox",
@@ -57,12 +27,6 @@
       "browser_version": "latest",
       "os": "Windows",
       "os_version": "7"
-    },
-    {
-      "browser": "opera",
-      "browser_version": "latest",
-      "os": "OS X",
-      "os_version": "Mavericks"
     },
     {
       "browser": "Opera Browser",
@@ -108,26 +72,5 @@
       "os_version": "5.0",
       "os": "ios"
     },
-    {
-      "browser": "Mobile Safari",
-      "browser_version": null,
-      "device": "iPhone 4S",
-      "os_version": "5.1",
-      "os": "ios"
-    },
-    {
-      "browser": "Mobile Safari",
-      "browser_version": null,
-      "device": "iPhone 5",
-      "os_version": "6.0",
-      "os": "ios"
-    },
-    {
-      "browser": "Mobile Safari",
-      "browser_version": null,
-      "device": "iPhone 5S",
-      "os_version": "7.0",
-      "os": "ios"
-    }
   ]
 }
