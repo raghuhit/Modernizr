@@ -5,6 +5,7 @@ before_script:
 - npm install grunt-cli -g
 script:
 - grunt travis --verbose
+- node ./node_modules/.bin/browserstack-runner
 env:
   global:
   - secure: H+NIN6lZNsfCtNxeZ/KAuOHfs9sCmsBi9FmQ3I1xxEBWiG4MaprUh+LoGqkn5y5rSkhrLgQ+qaukln+BtGtLoM55o5R03u2JQ61jpbSv2+UfqA4ymg9GRoFs93mATf/6lV+2SCvd1N8CAMbpJVp3bHyHPu7AhR5tCrqw9s4nGDc=
