@@ -71,6 +71,9 @@
       "device": "iPad 2 (5.0)",
       "os_version": "5.0",
       "os": "ios"
-    }
+    },
+    "mobile_safari_5",
+    "android_browser_2_3",
+    "chrome_current"
   ]
 }
