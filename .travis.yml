@@ -8,5 +8,5 @@ script:
   - node ./node_modules/.bin/browserstack-runner
 env:
   global:
-    - secure: CwdjC2Un9v7aU77iv6+DTaaEBH/s/aCSoHOE+e5mx29CdrOayC8kkAsLYhNo6OP8CB9UhatL0aEUdjo57NTnPdikOr20qwwETgCZae7z2h2QxvBhKtgZ4XCsSxywYiQyrnDJSTglyjPYHgqfo3ulZPIDf0h5ptvbTGARSm2STGA=
-    - secure: OnB3olVdHC2eDUtlb7HhN2WdT9oqjJE0d2aM0MTVy11Q0HUC5Kp9tEHqDSAuRWoeyErbv2Pb65JpgxtvfzsVprqa8knzJlTJod1MH3z6WmPoboPiZarVsartBsqeGaOKFAtfz39sZtSgMUtEX438JKpoSa85Sxm7L7OPclMTwks=
+    - secure: "rvY5gsqeWHVDkirZREuiSd2hcIk7FZLXWQFXCm6yJ+9gORnYiOcrgIy39VTy/XyimwJYqLEdCQ2/HepQ4JhiQVv50H8L/zinxUXU3SsUFpdZwr+HA9nZa4NKrA9X588xR2KtNvCW/i6MzMgz+9klZIrizBna2COz41PThNc9Gd4="
+    - secure: "YTLpMX1aE6CDWQMzRXy3VrINIOUQCretCxY18+C3CygEN/fpgEvCVOYG2OG5grIRItTX5LSUuMxWGIWHs6TxpMy9XopX5pzph0a2H/P7hJBpt9tP7OJRRKnTilxrMoG6BuAcyV/JWzpWB/B9uLomQM9It15lWoeGmwaO6EEdMFk="
