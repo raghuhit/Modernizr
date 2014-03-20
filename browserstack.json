@@ -2,7 +2,7 @@
   "username": "--secure--",
   "key": "--secure--",
   "test_path": "test/basic.html",
-  "timeout": 600,
+  "timeout": 200,
   "build": "Rahul1",
   "browsers": [
     "mobile_safari_7.0",
