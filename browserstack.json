@@ -3,7 +3,10 @@
   "key": "--secure--",
   "test_path": "test/basic.html",
   "timeout": 600,
+  "build": "Rahul1",
   "browsers": [
+    "mobile_safari_7.0",
+    "mobile_safari_7.0",
     "mobile_safari_7.0"
   ]
 }
