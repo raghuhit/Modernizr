@@ -4,76 +4,7 @@
   "test_path": "test/basic.html",
   "timeout": 600,
   "browsers": [
-    {
-      "browser": "safari",
-      "browser_version": "latest",
-      "os": "OS X",
-      "os_version": "Mavericks"
-    },
-    {
-      "browser": "chrome",
-      "browser_version": "latest",
-      "os": "Windows",
-      "os_version": "7"
-    },
-    {
-      "browser": "firefox",
-      "browser_version": "latest",
-      "os": "Windows",
-      "os_version": "7"
-    },
-    {
-      "browser": "opera",
-      "browser_version": "latest",
-      "os": "Windows",
-      "os_version": "7"
-    },
-    {
-      "browser": "Opera Browser",
-      "browser_version": null,
-      "device": "Samsung Galaxy S II",
-      "os_version": "480x800",
-      "os": "opera"
-    },
-    {
-      "browser": "ie",
-      "browser_version": "6.0",
-      "os": "Windows",
-      "os_version": "XP"
-    },
-    {
-      "browser": "ie",
-      "browser_version": "8.0",
-      "os": "Windows",
-      "os_version": "7"
-    },
-    {
-      "browser": "ie",
-      "browser_version": "9.0",
-      "os": "Windows",
-      "os_version": "7"
-    },
-    {
-      "browser": "ie",
-      "browser_version": "10.0",
-      "os": "Windows",
-      "os_version": "8"
-    },
-    {
-      "browser": "ie",
-      "browser_version": "11.0",
-      "os": "Windows",
-      "os_version": "7"
-    },
-    {
-      "browser": "Mobile Safari",
-      "browser_version": null,
-      "device": "iPad 2 (5.0)",
-      "os_version": "5.0",
-      "os": "ios"
-    },
-    "mobile_safari_5",
-    "android_browser_2_3",
-    "chrome_current"
+    "chrome_latest",
+    "firefox_previous"
   ]
 }
