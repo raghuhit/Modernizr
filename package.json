@@ -6,7 +6,7 @@
     "test": "test"
   },
   "dependencies": {
-    "browserstack-runner": "git://github.com/browserstack/browserstack-runner.git#master",
+    "browserstack-runner": "0.1.10",
     "file": "0.2.1",
     "mkdirp": "~0.3.4",
     "optimist": "~0.3.5",
