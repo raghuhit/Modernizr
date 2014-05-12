@@ -4,6 +4,7 @@
   "async": true,
   "property": "webp",
   "tags": ["image"],
+  "builderAliases": ["img_webp"],
   "authors": ["Rich Bradshaw", "Ryan Seddon", "Paul Irish"],
   "notes": [{
     "name": "Webp Info",
@@ -12,9 +13,7 @@
 }
 !*/
 /* DOC
-
 Tests for lossy, non-alpha webp support.
-
 */
 define(['Modernizr', 'addTest'], function( Modernizr, addTest ) {
   Modernizr.addAsyncTest(function(){

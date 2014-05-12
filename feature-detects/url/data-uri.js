@@ -4,6 +4,7 @@
   "property": "datauri",
   "caniuse": "datauri",
   "tags": ["url"],
+  "builderAliases": ["url_data_uri"],
   "async": true,
   "notes": [{
     "name": "Wikipedia article",
@@ -13,14 +14,12 @@
 }
 !*/
 /* DOC
-
 Detects support for data URIs. Provides a subproperty to report support for data URIs over 32kb in size:
 
 ```javascript
 Modernizr.datauri           // true
 Modernizr.datauri.over32kb  // false in IE8
 ```
-
 */
 define(['Modernizr', 'addTest'], function( Modernizr, addTest ) {
   // https://github.com/Modernizr/Modernizr/issues/14

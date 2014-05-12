@@ -19,16 +19,13 @@
 }
 !*/
 /* DOC
-
 Check if browser implements ECMAScript 6 Promises per specification.
-
 */
 define(['Modernizr'], function( Modernizr ) {
   Modernizr.addTest('promises', function() {
     return 'Promise' in window &&
     // Some of these methods are missing from
     // Firefox/Chrome experimental implementations
-    'cast' in window.Promise &&
     'resolve' in window.Promise &&
     'reject' in window.Promise &&
     'all' in window.Promise &&

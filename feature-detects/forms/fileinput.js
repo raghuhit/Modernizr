@@ -3,15 +3,14 @@
   "name": "input[file] Attribute",
   "property": "fileinput",
   "caniuse" : "forms",
-  "tags": ["file", "forms", "input"]
+  "tags": ["file", "forms", "input"],
+  "builderAliases": ["forms_fileinput"]
 }
 !*/
 /* DOC
-
 Detects whether input type="file" is available on the platform
 
 E.g. iOS < 6 and some android version don't support this
-
 */
 define(['Modernizr', 'createElement'], function( Modernizr, createElement ) {
   Modernizr.addTest('fileinput', function() {

@@ -1,4 +1,11 @@
 {
+  "html5shiv": {
+    "name": "HTML5 Shiv",
+    "authors": ["Alexander Farkas (@aFarkas)", "Jonathan Neal (@jonathantneal)", "Paul Irish (@paulirish)"],
+    "href": "https://github.com/aFarkas/html5shiv",
+    "licences": ["MIT", "GPL2"],
+    "notes": ["The HTML5 Shiv enables use of HTML5 sectioning elements in legacy Internet Explorer and provides basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x."]
+  },
   "html5-notifications": {
     "name": "HTML5 Notifications",
     "authors": ["Hendrik Beskow"],
@@ -119,6 +126,10 @@
     "href": "https://github.com/kriskowal/es5-shim",
     "notes": ["Adds the rest of Object, read carefully before using"]
   },
+  "es6shim": {
+    "name": "ES6 Shim",
+    "href": "https://github.com/paulmillr/es6-shim"
+  },
   "html5gears": {
     "name": "html5-gears",
     "authors": ["Brad Neuberg"],
@@ -202,8 +213,8 @@
   },
   "jdataview": {
     "name": "jDataView",
-    "authors": ["Christopher Chedeau"],
-    "href": "https://github.com/vjeux/jDataView/"
+    "authors": ["Christopher Chedeau", "Ingvar Stepanyan"],
+    "href": "https://github.com/jDataView/jDataView/"
   },
   "screenfulljs": {
     "name": "screenfull.js",
